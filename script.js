@@ -21,5 +21,24 @@ function compression(boxes) {
     console.log(boxes[1]) // O(1);
 }
 
-compression(boxes)
+// compression(boxes)
 // BIG O => O(2) => Operasi looping ini konstan atau tidak bergantung kepada banyak input (Constant)  => Excellent
+
+function anotherFunChallenge(input) {
+    let a = 5; // O(1)
+    let b = 10; // O(1)
+    let c = 50; // O(1)
+    for (let i = 0; i < input; i++) { // O(n)
+      let x = i + 1; // O(n)
+      let y = i + 2; // O(n)
+      let z = i + 3; // O(n)
+  
+    }
+    for (let j = 0; j < input; j++) // o(n)
+      let p = j * 2; // O(n)
+      let q = j * 2; // O(n)
+    }
+    let whoAmI = "I don't know"; // O(1)
+  }
+
+//   BIG O Notation => O(4+7n)
